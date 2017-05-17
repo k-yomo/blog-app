@@ -4,11 +4,6 @@
     <list default="true" id="9d002ebe-383f-42fa-bb33-a497ff9187c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -45,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -105,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+            <state relative-caret-position="14">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -141,9 +136,9 @@
         <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
       </list>
     </option>
   </component>
@@ -316,7 +311,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/new.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb" />
+    <property name="SearchEverywhereHistoryKey" value="ar&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/new.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -401,12 +396,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495027092532</updated>
       <workItem from="1495027094804" duration="1947000" />
-      <workItem from="1495035108432" duration="3846000" />
+      <workItem from="1495035108432" duration="4183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10644000" />
+    <option name="totallyTimeSpent" value="10981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="946" y="23" width="489" height="810" extended-state="0" />
@@ -672,14 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -691,7 +678,15 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
