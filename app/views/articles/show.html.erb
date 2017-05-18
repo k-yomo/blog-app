@@ -1,11 +1,17 @@
 <div class="content-wrapper">
-  <h1>Showing selected article</h1>
 
-      <p>Title: <%= @article.title %></p>
+  <div class="col-md-8 centered">
+    <h2 align="center"><%= @article.title %></h2>
+    <hr>
+  </div>
+  <div class="col-md-8 centered post-wrap">
 
-      <p>Description: <%= @article.description %></p>
+  <%= simple_format(@article.description) %>
 
-
-  <%= link_to "Edit this article", edit_article_path(@article) %> |
-  <%= link_to "Back to artciles listing", articles_path %>
+  </div>
+  <div class="col-md-8 centered">
+    <%= link_to "Edit", edit_article_path(@article), class: "btn btn-primary" %>
+    <%= link_to "Delte", article_path(@article), method: :delete, data: { confirm: "Are you sure you want to delete the article?" }, class: "btn btn-danger" %>
+    <%= link_to "Back to artciles listing", articles_path, class: "btn btn-secondary" %>
+  </div>
 </div>
