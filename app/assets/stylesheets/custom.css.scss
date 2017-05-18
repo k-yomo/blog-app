@@ -126,8 +126,28 @@ footer > .row {
   padding: 10px 0 20px;
 }
 
+.articles-h1 {
+  margin: 20px 0 25px;
+}
+
 .post-wrap {
   padding: 10px 15px;
   margin-bottom: 20px;
   box-shadow: 0 2px 1px 0 rgba(200, 200, 200, 0.3);
+}
+
+.articles-wrap {
+  padding: 20px;
+  box-shadow: 0 0 1px 1px rgba(200, 200, 200, 0.6);
+  margin-bottom: 20px;
+  max-width: 750px;
+  width: 90%;
+}
+
+.article-body {
+  margin-bottom: 15px;
+}
+
+.article-button {
+  float: right;
 }
