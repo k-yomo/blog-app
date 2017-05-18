@@ -4,10 +4,13 @@
 Custom CSS
  */
 
+body {
+  background-color: #f7f7f7;
+}
+
 .container {
   padding: 0;
   width: 100%;
-
 }
 
 .bg-inverse {
@@ -59,21 +62,31 @@ Custom CSS
   font-size: 4rem;
 }
 
-.home {
+footer {
+  display: table;
+  width: 100%;
+  height: 110px;
+  background: #f7f7f7;
+}
+
+.home-footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 15%;
-  display: table;
-  width: 100%;
+  background: none;
 }
+
+.home-footer >.row {
+  color: #fff !important;
+}
+
 
 footer > .row {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  height: 100%;
-  color: #fff;
+  height: 100px;
+  color: #666;
 }
 
 .form-wrapper {
@@ -88,6 +101,27 @@ footer > .row {
   text-align: center;
 }
 
+.t-center {
+  text-align: center;
+}
+
+.t-left {
+  text-align: left;
+}
+
 .t-right {
   text-align: right;
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.main-container {
+  background-color: #fff;
+}
+
+.content-wrapper {
+  padding: 30px;
 }

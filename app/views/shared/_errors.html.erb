@@ -1,0 +1,17 @@
+<% if obj.errors.any? %>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="alert alert-danger" role="alert">
+          <h4 class="alert-heading">
+            <%= pluralize(obj.errors.count, "error") %>
+            Profibited this article from being saved
+          </h4>
+          <ul>
+            <%= obj.errors.full_messages.each do |msg| %>
+                <li><%= msg unless msg.is_a? Array %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+<% end %>
