@@ -1,1 +1,76 @@
 @import "bootstrap";
+
+/*
+Custom CSS
+ */
+
+.container {
+  padding: 0;
+  width: 100%;
+
+}
+
+.bg-inverse {
+  background-color: #313841 !important;
+}
+
+#log {
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.jumbotron {
+  background-image: url("main-background.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  display: table;
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron > .row {
+  background-color: rgba(000,000,000,0.1);
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.jumbotron > .row > .col-md-12 > h1 {
+  font-size: 4rem;
+}
+
+.home {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 15%;
+  display: table;
+  width: 100%;
+}
+
+footer > .row {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
