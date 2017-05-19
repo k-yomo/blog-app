@@ -1,6 +1,6 @@
 <div class="form-wrapper">
 <h1 align="center" class="articles-h1">ALl Bloggers</h1>
-
+  <div class="pagination"><%= paginate @users %></div>
 <% @users.each do |user| %>
     <ul class="listing users-wrap">
       <div class="row">
@@ -14,10 +14,12 @@
           <li class="c-gray">
             <small>
               <%= pluralize(user.articles.count, "article") if user.articles %>
-            </small>
+            </small>F
           </li>
         </div>
       </div>
     </ul>
 <% end %>
+  <div class="pagination"><%= paginate @users %></div>
 </div>
+
