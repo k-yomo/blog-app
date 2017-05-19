@@ -190,3 +190,9 @@ footer > .row {
   margin: 0 auto !important;
   width: 140px;
 }
+
+@media screen and (min-width: 1020px) {
+  .login-button {
+    margin-left: 10px;
+  }
+}
