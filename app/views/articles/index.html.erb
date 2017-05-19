@@ -11,6 +11,12 @@
           <hr>
           <div class="article-body">
             <%= truncate(article.description, length: 150) %>
+            <div class="article-meta-details">
+              <small>
+                Created by: <%= article.user.username %>,
+                <%= time_ago_in_words(article.created_at) %> ago
+              </small>
+            </div>
           </div>
 
           <div class="article-button">

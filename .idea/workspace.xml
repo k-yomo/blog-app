@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d002ebe-383f-42fa-bb33-a497ff9187c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -21,76 +19,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AlphaBlog@articles_controller.coverage" NAME="articles_controller Coverage Results" MODIFIED="1495088592612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="AlphaBlog" />
+    <SUITE FILE_PATH="coverage/AlphaBlog@articles_controller.coverage" NAME="articles_controller Coverage Results" MODIFIED="1495155322424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="AlphaBlog" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20170519001514_add_user_id_to_articles.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20170519001514_add_user_id_to_articles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="article.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
               <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="153" column="13" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -137,13 +95,13 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20170518234320_create_users.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170519001514_add_user_id_to_articles.rb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
       </list>
     </option>
   </component>
@@ -500,7 +458,7 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile&#10;art&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;user&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;index&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/index.html.erb&#10;ar&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;cus&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;cont&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;_me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;fo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;foo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/new.html.erb&#10;_form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;_for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;footer&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;app&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;nav&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_navbar.html.erb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;ge&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile.lock&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="c&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;index&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/index.html.erb&#10;gem&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile&#10;art&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;user&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;ar&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;cus&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;cont&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;_me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;fo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;foo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/new.html.erb&#10;_form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;_for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;footer&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;app&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;nav&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_navbar.html.erb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb&#10;ge&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile.lock&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -752,12 +710,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495027092532</updated>
       <workItem from="1495027094804" duration="1947000" />
-      <workItem from="1495035108432" duration="30002000" />
+      <workItem from="1495035108432" duration="30652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36800000" />
+    <option name="totallyTimeSpent" value="37450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="937" y="23" width="498" height="810" extended-state="0" />
@@ -1093,22 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1125,10 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1136,7 +1078,7 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20170519001514_add_user_id_to_articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1152,15 +1094,31 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="56">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="153" column="13" lean-forward="false" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
           <folding />
         </state>
       </provider>
