@@ -1,6 +1,25 @@
 <div class="content-wrapper">
 
   <div class="col-md-8 centered">
+    <%  if @article.user %>
+    <ul class="listing">
+      <div class="row">
+        <div class="col-md-4 user-card">
+          <li>
+            <%= link_to gravatar_for(@article.user), user_path(@article.user) %>
+          </li>
+          <li class="article-title">
+            <%= link_to @article.user.username, user_path(@article.user) %>
+          </li>
+          <li class="c-gray">
+            <small>
+              <%= pluralize(@article.user.articles.count, "article") if @article.user.articles %>
+            </small>
+          </li>
+        </div>
+      </div>
+    </ul>
+        <% end %>
     <h2 align="center"><%= @article.title %></h2>
     <hr>
   </div>

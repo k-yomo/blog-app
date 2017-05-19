@@ -144,6 +144,11 @@ footer > .row {
   width: 90%;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 .article-body {
   margin-bottom: 15px;
 }
@@ -156,4 +161,27 @@ footer > .row {
 
 .article-button {
   float: right;
+}
+
+.listing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.users-wrap {
+  padding: 10px 20px;
+  box-shadow: 0 0 1px 1px rgba(200, 200, 200, 0.6);
+  margin: 0 auto 20px;
+  max-width: 350px;
+  width: 90%;
+}
+
+.c-gray {
+  color: #aaa;
+}
+
+.user-card {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 200px;
 }
