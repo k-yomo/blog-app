@@ -19,10 +19,21 @@
           <%= f.text_area :description, class: "form-control", autofocus: true, rows: 10 %>
         </div>
       </div>
+      <div class="form-group row">
+        <div class="row">
+          <div class="col-sm-12">
+              <%= f.collection_check_boxes :category_ids, Category.all, :id, :name do |cb| %>
+                <%= cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text + "  "} %>
+            <% end %>
+          </div>
+          </div>
+        </div>
 
       <div class="form-group row">
-        <div class="col-sm-10">
-        <%= f.submit "Submit", class: "btn btn-primary" %>
+        <div class="row">
+          <div class="col-sm-8">
+            <%= f.submit "Submit", class: "btn btn-primary" %>
+          </div>
         </div>
       </div>
   <% end %>

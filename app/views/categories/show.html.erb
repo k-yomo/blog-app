@@ -1,0 +1,7 @@
+<div class="content-wrapper">
+  <div class="articles-h1">
+    <h1 align="center"><%= "Category: " + @category.name %></h1>
+  </div>
+
+  <%= render 'articles/article', obj: @category_articles %>
+</div>

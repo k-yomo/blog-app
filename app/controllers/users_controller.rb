@@ -35,7 +35,6 @@ class UsersController < ApplicationController
 
   def show
     @articles =@user.articles.page(params[:page]).per(10)
-
   end
 
   def destroy

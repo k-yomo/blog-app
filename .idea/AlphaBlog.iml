@@ -108,7 +108,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="articles_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="articles_controller" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="AlphaBlog" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
@@ -127,7 +127,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="false" name="categories_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="categories_controller" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="AlphaBlog" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />

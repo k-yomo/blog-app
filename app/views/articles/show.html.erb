@@ -26,7 +26,9 @@
   <div class="col-md-8 centered post-wrap">
 
   <%= simple_format(@article.description) %>
-
+    <% if @article.categories.any? %>
+      <p>Categories: <%= render @article.categories %></p>
+    <% end %>
   </div>
     <div class="col-md-8 centered">
       <% if logged_in? && current_user == @article.user || current_user.admin? %>
