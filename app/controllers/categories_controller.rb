@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  before_action :require_user, except: [:index, :show]
 
   def index
     @categories = Category.page(params[:page]).per(10)
@@ -25,5 +26,12 @@ class CategoriesController < ApplicationController
   private
   def category_params
     params.require(:category).permit(:name)
+  end
+
+  def require_user
+    if !logged_in?
+      flash[:danger] = "Only User can perform that action"
+      redirect_to categories_path
+    end
   end
 end
