@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d002ebe-383f-42fa-bb33-a497ff9187c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -24,7 +23,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AlphaBlog@articles_controller.coverage" NAME="articles_controller Coverage Results" MODIFIED="1495241039664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="AlphaBlog" />
-    <SUITE FILE_PATH="coverage/AlphaBlog@categories_controller.coverage" NAME="categories_controller Coverage Results" MODIFIED="1495242131675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="AlphaBlog" />
+    <SUITE FILE_PATH="coverage/AlphaBlog@categories_controller.coverage" NAME="categories_controller Coverage Results" MODIFIED="1495246222640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="AlphaBlog" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -39,12 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navbar.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,14 +102,12 @@
         <option value="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20170519201348_add_admin_to_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170519220846_create_categories.rb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
@@ -116,6 +125,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/categories/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
       </list>
     </option>
   </component>
@@ -126,9 +137,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1013" />
+    <option name="x" value="992" />
     <option name="y" value="24" />
-    <option name="width" value="427" />
+    <option name="width" value="448" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -312,7 +323,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="categori&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;categor&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/test/integration/list_categories_test.rb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/categories/new.html.erb&#10;cus&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;index&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/categories/index.html.erb&#10;nav&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_navbar.html.erb&#10;cate&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;cont&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/users_controller.rb&#10;error&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/shared/_errors.html.erb&#10;create&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/test/integration/create_categories_test.rb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/show.html.erb&#10;usr&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb&#10;scss&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;use&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/users_controller.rb&#10;art&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_article.html.erb&#10;arti&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;ar&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/application_controller.rb&#10;home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;_a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_article.html.erb&#10;edi&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;page&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/pages_controller.rb&#10;scs&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;ses&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;sho&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;se&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/initializers/application_controller_renderer.rb&#10;session&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;sh&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/show.html.erb&#10;sess&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;Inde&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/index.html.erb&#10;gem&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile&#10;appli&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/helpers/application_helper.rb&#10;for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;user.rb&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;c&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;sc&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;_me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;fo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;foo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;_form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;_for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;footer&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;app&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/pages/home.html.erb&#10;nav&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_navbar.html.erb&#10;categori&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;categor&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/test/integration/list_categories_test.rb&#10;new&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/categories/new.html.erb&#10;cus&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;index&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/categories/index.html.erb&#10;cate&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;cont&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/users_controller.rb&#10;error&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/shared/_errors.html.erb&#10;create&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/test/integration/create_categories_test.rb&#10;a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/categories_controller.rb&#10;show&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/show.html.erb&#10;usr&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;routes&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/routes.rb&#10;scss&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;use&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/users_controller.rb&#10;art&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_article.html.erb&#10;arti&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/articles_controller.rb&#10;ar&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/application_controller.rb&#10;_a&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_article.html.erb&#10;edi&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;page&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/pages_controller.rb&#10;scs&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;ses&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;sho&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/show.html.erb&#10;se&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;ap&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/config/initializers/application_controller_renderer.rb&#10;session&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;sh&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/show.html.erb&#10;sess&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/controllers/sessions_controller.rb&#10;Inde&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/users/index.html.erb&#10;gem&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/Gemfile&#10;appli&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/helpers/application_helper.rb&#10;for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;user.rb&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/models/user.rb&#10;c&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/assets/stylesheets/custom.css.scss&#10;sc&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;sche&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/db/schema.rb&#10;me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;_me&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_messages.html.erb&#10;fo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;foo&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;_form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;edit&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/edit.html.erb&#10;_for&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/articles/_form.html.erb&#10;footer&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/_footer.html.erb&#10;app&#9;FILE&#9;file:///Users/kanji/Documents/Development/AlphaBlog/app/views/layouts/application.html.erb" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -585,12 +596,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495027092532</updated>
       <workItem from="1495027094804" duration="1947000" />
-      <workItem from="1495035108432" duration="68773000" />
+      <workItem from="1495035108432" duration="70042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75571000" />
+    <option name="totallyTimeSpent" value="76840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,15 +613,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1013" y="24" width="427" height="810" extended-state="0" />
+    <frame x="992" y="24" width="448" height="810" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33246416" sideWeight="0.50715744" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="1107" y="123" width="228" height="610" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3350717" sideWeight="0.49284253" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3350717" sideWeight="0.49284253" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31026787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,14 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -957,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1037,11 +1032,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
