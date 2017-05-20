@@ -31,9 +31,11 @@
     <% end %>
   </div>
     <div class="col-md-8 centered">
-      <% if logged_in? && current_user == @article.user || current_user.admin? %>
-        <%= link_to "Edit", edit_article_path(@article), class: "btn btn-primary" %>
-        <%= link_to "Delte", article_path(@article), method: :delete, data: { confirm: "Are you sure you want to delete the article?" }, class: "btn btn-danger" %>
+      <% if logged_in? %>
+        <% if current_user == @article.user || current_user.admin? %>
+          <%= link_to "Edit", edit_article_path(@article), class: "btn btn-primary" %>
+          <%= link_to "Delte", article_path(@article), method: :delete, data: { confirm: "Are you sure you want to delete the article?" }, class: "btn btn-danger" %>
+        <% end %>
       <% end %>
 
       <%= link_to "Back to artciles listing", articles_path, class: "btn btn-secondary" %>

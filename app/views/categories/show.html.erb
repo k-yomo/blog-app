@@ -1,7 +1,10 @@
 <div class="content-wrapper">
   <div class="category-h1">
     <h1 align="center"><%= "Category: " + @category.name %></h1>
-    <div class="category-box "><%= link_to "Edit Category", categories_path(@category), class: "btn btn-secondary" %></div>
+
+    <% if logged_in? %>
+      <div class="category-box "><%= link_to "Edit Category", categories_path(@category), class: "btn btn-secondary" %></div>
+    <% end %>
   </div>
 
   <%= render 'articles/article', obj: @category_articles %>
