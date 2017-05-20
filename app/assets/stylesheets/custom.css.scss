@@ -30,10 +30,6 @@ body {
   text-decoration: none;
 }
 
-.center {
-  text-align: center;
-}
-
 
 .jumbotron {
   background-image: url("main-background.jpg");
@@ -191,8 +187,13 @@ footer > .row {
   width: 140px;
 }
 
-@media screen and (min-width: 1020px) {
+@mediascreen and (min-width: 1020px) {
   .login-button {
     margin-left: 10px;
   }
+}
+
+.category-box {
+  margin: 0 auto;
+  width: 150px;
 }
