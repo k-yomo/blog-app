@@ -1,22 +1,28 @@
 <div class="form-wrapper">
-  <h1 align="center">Lisnting ALl Categories</h1>
-  <div class="category-box"><%= link_to "Create Category", new_category_path, class: "btn btn-primary" if logged_in? %></div>
-  <div class="pagination"><%= paginate @categories %></div>
-  <% @categories.each do |category| %>
-  <ul class="listing users-wrap">
-        <div class="row">
-          <div class="col-md-4 user-card">
-            <li class="article-title">
-              <%= link_to category.name, category_path(category) %>
-            </li>
-           <li>
-             <small>
-               <%= pluralize(category.articles.count, "article") %>
-             </small>
-           </li>
-          </div>
-        </div>
-    </ul>
+  <h1 align="center">Lisnting All Categories</h1>
+  <% if logged_in? %>
+    <div class="category-box"><%= link_to "Create Category", new_category_path, class: "btn btn-primary" if logged_in? %></div>
   <% end %>
+  <div class="pagination"><%= paginate @categories %></div>
+  <div class="listing">
+        <div class="row">
+          <% @categories.each do |category| %>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="article-title">
+                  <%= link_to category.name, category_path(category) %>
+                </div>
+
+                <div>
+                 <small>
+                   <%= pluralize(category.articles.count, "article") %>
+                 </small>
+                </div>
+             </div>
+            </div>
+          <% end %>
+        </div>
+    </div>
+
   <div class="pagination"><%= paginate @categories %></div>
 </div>

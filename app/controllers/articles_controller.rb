@@ -3,7 +3,7 @@ class ArticlesController < ApplicationController
   before_action :require_user, except: [:index, :show]
   before_action :require_same_user, only: [:edit, :update, :destroy]
   def index
-    @articles = Article.page(params[:page]).per(10)
+    @articles = Article.page(params[:page]).per(9)
   end
   
   def new

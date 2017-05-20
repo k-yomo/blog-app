@@ -1,6 +1,7 @@
 <div class="content-wrapper">
-  <div class="articles-h1">
+  <div class="category-h1">
     <h1 align="center"><%= "Category: " + @category.name %></h1>
+    <div class="category-box "><%= link_to "Edit Category", categories_path(@category), class: "btn btn-secondary" %></div>
   </div>
 
   <%= render 'articles/article', obj: @category_articles %>
